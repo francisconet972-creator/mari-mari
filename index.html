@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#190d15">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="description" content="Uma cartinha feita com carinho.">
+
+    <title>Uma carta para você ❤️</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="hearts-container" id="heartsContainer"></div>
+
+    <header class="top-bar">
+        <div class="logo">com carinho<span>,</span></div>
+
+        <button id="musicButton" class="music-button" type="button">
+            <span id="musicSymbol">♫</span>
+            <span id="musicText">Tocar música</span>
+        </button>
+    </header>
+
+    <!-- COLOQUE O LINK DA SUA MÚSICA NO SRC -->
+    <audio id="backgroundMusic" loop preload="none">
+        <source src="./assets/Versace On The Floor - Bruno Mars.mp3" type="audio/mpeg">
+    </audio>
+
+    <main class="main-content">
+
+        <section class="intro">
+            <span class="small-label">UMA CARTA ESPECIAL</span>
+
+            <h1>
+                Tem coisas que<br>
+                o coração <span>não esconde.</span>
+            </h1>
+
+            <p>
+                Algumas palavras merecem ser ditas,
+                mesmo quando a gente não sabe exatamente como.
+            </p>
+
+            <button id="openLetter" class="open-button" type="button">
+                <span>Abrir minha carta</span>
+                <span class="arrow">↗</span>
+            </button>
+
+            <div class="bottom-note">
+                <span>♥</span> escrita com carinho
+            </div>
+        </section>
+
+        <section class="letter-section" id="letterSection">
+            <div class="letter">
+                <div class="letter-top">
+                    <span>PARA VOCÊ</span>
+                    <span class="letter-heart">♥</span>
+                </div>
+
+                <div class="letter-content">
+                    <p class="greeting">Oi, Mari...</p>
+
+                    <p>
+                       Então eu gosto muito de você isso não e novidade, mas isso e de um jeito que nem sei explicar direito.
+                        Sei que quando você me deu aquele selinho eu falei que não ia me iludir,
+                        e minha mente realmente não se iludiu, mas meu coração acabou indo por outro caminho.
+                    </p>
+
+                    <p>
+                        Não tem como não reparar em você, no seu cabelo ruivo, no seu sorriso,
+                        no seu olhar e nesse seu jeitinho que me encanta tanto.
+                        Você tem algo diferente, algo que me faz querer estar perto,
+                        conversar e saber cada vez mais sobre você.
+                    </p>
+
+                    <p>
+                        Não sei explicar quando começou, só sei que, de alguma forma,
+                        você foi se tornando alguém que ocupa meus pensamentos até nos
+                        momentos mais aleatórios do dia.
+                    </p>
+
+                    <p>
+                        E eu só queria que você soubesse o quanto é especial pra mim. ❤️
+                    </p>
+
+                    <div class="signature">
+                        <span>Com carinho,</span>
+                        <strong>Chico.</strong>
+                    </div>
+                </div>
+
+                <div class="letter-bottom">♥</div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        Feito com carinho por Chico. <span>♥</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
